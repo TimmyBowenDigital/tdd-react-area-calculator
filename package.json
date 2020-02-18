@@ -1,0 +1,46 @@
+{
+  "name": "tdd-react-area-calculator",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "@types/jest": "^25.1.2",
+    "@types/node": "^12.0.0",
+    "@types/react": "^16.9.0",
+    "@types/react-dom": "^16.9.0",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-scripts": "3.4.0",
+    "typescript": "^3.7.5"
+  },
+  "scripts": {
+    "start": "tdd-react-area-calculator/node_modules/.bin/react-scripts start",
+    "build": "tdd-react-area-calculator/node_modules/.bin/react-scripts build",
+    "testnpm": "tdd-react-area-calculator/node_modules/.bin/react-scripts test",
+    "eject": "tdd-react-area-calculator/node_modules/.bin/react-scripts eject",
+    "test": "jest"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/preset-typescript": "^7.8.3",
+    "jest": "^25.1.0",
+    "react-test-renderer": "^16.12.0",
+    "ts-jest": "^25.2.0"
+  }
+}
